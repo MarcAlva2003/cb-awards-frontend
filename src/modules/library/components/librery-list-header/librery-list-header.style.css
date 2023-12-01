@@ -1,0 +1,9 @@
+.library-header-component {
+  padding: 0 16px;
+}
+.library-header-component--title {
+  margin-bottom: 12px;
+}
+.library-header-component--desc {
+  margin-bottom: 22px;
+}

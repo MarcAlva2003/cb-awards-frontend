@@ -1,0 +1,53 @@
+.book-modal-container {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #00000080;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .3s ease-in-out, visibility 1s ease-in-out;
+  z-index: 100;
+  visibility: hidden;
+}
+.book-modal-container--open {
+  opacity: 1;
+  visibility: visible;
+}
+.book-modal-content {
+  width: calc(100% - 64px);
+  min-height: 100px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  transform: scale(.2);
+  transition: transform .3s ease-in-out;
+}
+.book-modal-container--open .book-modal-content {
+  transform: scale(1);
+}
+.book-modal-content--close {
+  display: flex;
+  justify-content: flex-end;
+}
+.book-modal-content--close__btn {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-modal-content--title {
+  margin-bottom: 4px;
+}
+.book-modal-content--author {
+  margin-bottom: 22px;
+}
+.book-modal-content--desc {
+  margin-bottom: 22px;
+}

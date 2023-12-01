@@ -1,0 +1,55 @@
+:root {
+  --dodger-blue-50: #edfcff;
+  --dodger-blue-100: #d6f7ff;
+  --dodger-blue-200: #b5f3ff;
+  --dodger-blue-300: #83efff;
+  --dodger-blue-400: #48e2ff;
+  --dodger-blue-500: #1ec8ff;
+  --dodger-blue-600: #06aeff;
+  --dodger-blue-700: #009afe;
+  --dodger-blue-800: #0875c5;
+  --dodger-blue-900: #0d639b;
+  --dodger-blue-950: #0e3b5d;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+  text-decoration: none;
+}
+input {
+  border:none;
+  padding: 0;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+input:focus {
+  outline: none;
+}
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-spacing: 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.42rem;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+}

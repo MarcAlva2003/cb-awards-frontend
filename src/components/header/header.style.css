@@ -1,0 +1,39 @@
+.header-component {
+  width: 100%;
+  height: 70px;
+  /* background-color: #6528F7; */
+  /* @apply bg-blue-blue400; */
+  @apply bg-grey-grey950;
+  position: sticky;
+  top: 0;
+}
+.header-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  p {
+    color: #ffffff;
+  }
+}
+.header-container--logo {
+  max-height: 70px;
+  max-width: 70px;
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-container--logo img {
+  max-height: 54px;
+  max-width: 54px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+.header-container--menu{
+  height: 32px;
+}
+.header-container--menu button {
+color: #FFFFFF;
+}
