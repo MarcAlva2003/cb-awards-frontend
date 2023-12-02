@@ -56,3 +56,41 @@ export const DownloadIcon = (props: IIconComponent) => {
     </IconContainer>
   );
 };
+export const DownloadDoneIcon = (props: IIconComponent) => {
+  return (
+    <IconContainer {...props}>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M6 18h12c.55 0 1 .45 1 1s-.45 1-1 1H6c-.55 0-1-.45-1-1s.45-1 1-1zm5.01-4.1a2 2 0 0 1-2.82-.01L6 11.7c-.55-.55-.54-1.44.03-1.97c.54-.52 1.4-.5 1.92.02L9.6 11.4l6.43-6.43c.54-.54 1.41-.54 1.95 0l.04.04c.54.54.54 1.42-.01 1.96l-7 6.93z"
+        />
+      </svg>
+    </IconContainer>
+  );
+};
+export const LoadingAnimatedIcon = (props: IIconComponent) => {
+  return (
+    <IconContainer {...props}>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M12 2A10 10 0 1 0 22 12A10 10 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8A8 8 0 0 1 12 20Z"
+          opacity=".5"
+        />
+        <path
+          fill="currentColor"
+          d="M20 12h2A10 10 0 0 0 12 2V4A8 8 0 0 1 20 12Z"
+        >
+          <animateTransform
+            attributeName="transform"
+            dur="1s"
+            from="0 12 12"
+            repeatCount="indefinite"
+            to="360 12 12"
+            type="rotate"
+          />
+        </path>
+      </svg>
+    </IconContainer>
+  );
+};
