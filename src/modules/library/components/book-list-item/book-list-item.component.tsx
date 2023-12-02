@@ -40,7 +40,7 @@ export const BookListItemComponent = (props: IBookListItemComponent) => {
         setSuccess(true);
       })
       .catch((err) => {
-        console.log({ err });
+        return err;
       });
   };
 
