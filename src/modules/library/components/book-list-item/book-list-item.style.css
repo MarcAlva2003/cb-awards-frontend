@@ -50,6 +50,9 @@
 .book-item-info--options__button:nth-child(2) {
   @apply border border-solid border-grey-grey950;
 }
+.book-item-info--options__button:nth-child(2):disabled {
+  @apply text-grey-grey950;
+}
 .book-item-info--options__button:last-child {
   grid-column: 1/3;
   @apply bg-grey-grey950 text-grey-grey50;

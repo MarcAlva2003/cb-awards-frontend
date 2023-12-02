@@ -1,7 +1,6 @@
 .input-component {
   width: 100%;
   height: 36px;
-  /* background-color: red; */
   border-radius: 8px;
   @apply border border-solid border-grey-grey200;
   display: flex;
